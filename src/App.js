@@ -89,7 +89,7 @@ function App() {
 </Container>
 <Container>
   <Row xs={2} md={4} lg={6}>
-    <Col className="location-box"><SiAircanada/>{country}</Col>
+    <Col className="location-box"><SiAircanada/> {country}</Col>
     <Col className="location-box">{city}</Col>
   </Row>
    <Row xs={2} md={4} lg={6}>
